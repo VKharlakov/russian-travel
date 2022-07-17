@@ -1,12 +1,13 @@
 .lead {
 	display: flex;
 	justify-content: center;
-	max-height: 1005px;
 }
 
 .lead__container {
-	width: 984px;
+	width: 100%;
+	max-width: 984px;
 	min-width: 406px;
+	padding: 0 148px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;

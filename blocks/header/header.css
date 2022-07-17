@@ -5,7 +5,8 @@
 
 .header__container {
 	min-width: 288px;
-	width: 1184px;
+	max-width: 1184px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	padding: 28px 48px 56px;
