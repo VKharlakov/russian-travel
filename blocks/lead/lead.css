@@ -1,17 +1,21 @@
 .lead {
-	max-width: 90%;
+	display: flex;
+	justify-content: center;
+	max-height: 1005px;
+}
+
+.lead__container {
+	width: 984px;
+	min-width: 406px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 0 auto;
-	margin-top: 56px;
 	white-space: pre-line;
 }
 
 .lead__title {
 	margin: 0;
 	text-align: center;
-	font-family: 'Inter';
 	font-weight: bold;
 	font-size: 96px;
 	line-height: 104%;
@@ -19,18 +23,16 @@
 
 .lead__subtitle {
 	margin: 0;
-	font-family: Inter;
+	padding: 32px 0 64px;
 	text-align: center;
-	/*font-family: 'Inter';*/
 	font-weight: normal;
 	font-size: 30px;
 	line-height: 120%;
 }
 
 .lead__image-container {
-/*	width: 100%;*/
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	position: relative;
 }
 
@@ -43,11 +45,10 @@
 
 .lead__caption {
 	margin: 0;
-	font-family: Inter;
+	padding-top: 8px;
 	font-weight: normal;
 	font-size: 10px;
 	line-height: 140%;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	align-self: row flex-start;
 }

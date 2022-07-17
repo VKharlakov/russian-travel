@@ -23,6 +23,8 @@
 }
 
 .page {
+	margin: auto;
+	font-family: Inter;
 	background-color: #2A2C2F;
 	color: #FFFFFF;
 ;
