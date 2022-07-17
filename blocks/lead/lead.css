@@ -1,0 +1,53 @@
+.lead {
+	max-width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 56px;
+	white-space: pre-line;
+}
+
+.lead__title {
+	margin: 0;
+	text-align: center;
+	font-family: 'Inter';
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 104%;
+}
+
+.lead__subtitle {
+	margin: 0;
+	font-family: Inter;
+	text-align: center;
+	/*font-family: 'Inter';*/
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 120%;
+}
+
+.lead__image-container {
+/*	width: 100%;*/
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.lead__travel-path {
+	position: absolute;
+	z-index: 3;
+	left: 23px;
+	top: 90px;
+}
+
+.lead__caption {
+	margin: 0;
+	font-family: Inter;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 140%;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	align-self: row flex-start;
+}

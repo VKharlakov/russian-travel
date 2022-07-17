@@ -1,0 +1,34 @@
+.header {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 28px;
+}
+
+.header__logo {
+	width: 176px;
+	height: 52px;
+}
+
+.header__lang-links {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	gap: 18px;
+}
+
+.header__lang-link {
+	text-decoration: none;
+	font-family: Inter;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: white;
+
+}
+
+.header__lang-link:hover {
+	text-decoration-line: underline;;
+	cursor: pointer;
+}
