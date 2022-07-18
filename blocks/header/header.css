@@ -4,7 +4,7 @@
 	padding-bottom: 56px;
 	
 
-	/*border: 1px solid green;*/
+	border: 1px solid green;
 }
 
 .header__container {
@@ -14,7 +14,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 
-	/*border: 1px solid green;*/
+	border: 1px solid green;
 }
 
 .header__logo {
@@ -31,7 +31,7 @@
 	text-align: center;
 	gap: 18px;
 
-	/*border: 1px solid green;*/
+	border: 1px solid green;
 }
 
 .header__lang-link {
