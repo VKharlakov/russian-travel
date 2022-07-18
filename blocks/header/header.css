@@ -1,36 +1,42 @@
 .header {
 	display: flex;
 	justify-content: center;
+	padding-bottom: 56px;
+	
+
+	border: 1px solid green;
 }
 
 .header__container {
-	min-width: 288px;
-	max-width: 1184px;
 	width: 100%;
+	max-width: 1184px;
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
-	padding: 28px 48px 56px;
+
+	border: 1px solid green;
 }
 
 .header__logo {
-	width: 176px;
-	height: 52px;
+	max-width: 176px;
+	max-height: 52px;
 }
 
 .header__lang-links {
 	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
+	align-self: flex-end;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 117%;
+	text-align: center;
 	gap: 18px;
+
+	border: 1px solid green;
 }
 
 .header__lang-link {
 	text-decoration: none;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 28px;
 	color: white;
-
 }
 
 .header__lang-link:hover {
