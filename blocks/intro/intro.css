@@ -16,11 +16,17 @@
 .intro__title {
 	margin: 0;
 	padding-bottom: 40px;
+	font-weight: bold;
+	font-size: 54px;
+	line-height: 107%;
 }
 
 .intro__text {
 	margin: 0;
 	padding-bottom: 33px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 163%;
 }
 
 .intro__list {
@@ -31,10 +37,13 @@
 
 .intro__list-item {
 	margin: 0;
+	font-size: 12px;
+	line-height: 18px;
 }
 
 .intro__list-title {
 	margin: 0;
+	font-weight: bold;
 }
 
 .intro__list-text {
