@@ -1,8 +1,19 @@
 .lead {
 	display: flex;
+	justify-content: center;
+
+	border: 1px solid green;
+}
+
+.lead__container {
+	width: 100%;
+	max-width: 984px;
+	display: flex;
 	flex-direction: column;
 	text-align: center;
 	white-space: pre-line;
+
+	border: 1px solid green;
 }
 
 .lead__title {
@@ -14,9 +25,10 @@
 }
 
 .lead__image-container {
+	white-space: normal;
 	max-width: 984px;
 	max-height: 615px;
-	height: 100%;
+	position: relative;
 	/*background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -25,7 +37,17 @@
 	border: 1px solid green;
 }
 
+.lead__background-image {
+	width: 100%;
+}
+
 .lead__image {
+	position: absolute;
+	top: 90px;
+	right: 24px;
+	left: 23px;
+	width: 100%;
+	z-index: 3;
 }
 
 .lead__caption {
