@@ -1,6 +1,7 @@
 .lead {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 
 	border: 1px solid green;
 }
@@ -18,10 +19,20 @@
 
 .lead__title {
 	margin: 0 auto;
+	margin-bottom: 32px;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 104%;
+	text-align: center;
 }
 
 .lead__subtitle {
 	margin: 0 auto;
+	margin-bottom: 64px;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 120%;
+	text-align: center;
 }
 
 .lead__image-container {
@@ -29,6 +40,7 @@
 	max-width: 984px;
 	max-height: 615px;
 	position: relative;
+	margin-bottom: 8px;
 	/*background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -45,12 +57,17 @@
 	position: absolute;
 	top: 90px;
 	right: 24px;
-	left: 23px;
 	width: 100%;
+	max-width: 935px;
 	z-index: 3;
 }
 
 .lead__caption {
 	margin: 0;
 	margin-right: auto;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 140%;
+	letter-spacing: 1.5px;
 }
