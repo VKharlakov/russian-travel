@@ -3,7 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 }
 
 .lead__container {
@@ -14,7 +14,7 @@
 	text-align: center;
 	white-space: pre-line;
 
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 }
 
 .lead__title {
@@ -46,7 +46,7 @@
 	background-repeat: no-repeat;
 	background-image: url('../../images/kalegin-michail-179870-unsplash.png');*/
 
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 }
 
 .lead__background-image {
