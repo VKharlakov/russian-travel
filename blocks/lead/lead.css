@@ -35,31 +35,14 @@
 	text-align: center;
 }
 
-.lead__image-container {
+.lead__image {
 	white-space: normal;
 	max-width: 984px;
+	width: 100%;
 	max-height: 615px;
-	position: relative;
 	margin-bottom: 8px;
-	/*background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-image: url('../../images/kalegin-michail-179870-unsplash.png');*/
 
 	border: 1px solid green;
-}
-
-.lead__background-image {
-	width: 100%;
-}
-
-.lead__image {
-	position: absolute;
-	top: 90px;
-	right: 24px;
-	width: 100%;
-	max-width: 935px;
-	z-index: 3;
 }
 
 .lead__caption {
