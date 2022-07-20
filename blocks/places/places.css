@@ -89,4 +89,8 @@
 		grid-template-columns: minmax(320px, 460px);
     	grid-template-rows: repeat(4, minmax(min-content, max-content));
     }
+    .places__title {
+    	font-size: 32px;
+    	line-height: 109%;
+    }
 }
