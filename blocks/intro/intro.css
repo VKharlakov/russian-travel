@@ -2,15 +2,12 @@
 	padding: 92px 0;
 	max-width: 984px;
 	width: 100%;
-
-	border: 1px solid green;
+	margin: 0 auto;
 }
 
 .intro__container {
 	max-width: 690px;
 	width: 100%;
-
-	border: 1px solid green;
 }
 
 .intro__title {

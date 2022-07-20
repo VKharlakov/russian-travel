@@ -2,8 +2,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
-	border: 1px solid green;
 }
 
 .lead__container {
@@ -13,8 +11,6 @@
 	flex-direction: column;
 	text-align: center;
 	white-space: pre-line;
-
-	border: 1px solid green;
 }
 
 .lead__title {
@@ -41,8 +37,6 @@
 	width: 100%;
 	max-height: 615px;
 	margin-bottom: 8px;
-
-	border: 1px solid green;
 }
 
 .lead__caption {
