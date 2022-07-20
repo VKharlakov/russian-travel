@@ -38,3 +38,9 @@
 	text-decoration-color: white;
 	cursor: pointer;
 }
+
+@media screen and (max-width:  1024px) {
+	.header {
+		padding-bottom: 48px;
+	}
+}
