@@ -40,6 +40,7 @@
 	font-size: 72px;
 	line-height: 106%;
 	text-align: center;
+	white-space: pre-line;
 }
 
 .cover__subtitle {
@@ -55,9 +56,11 @@
 	.cover__title {
 		font-size: 32px;
 		line-height: 109%;
+		margin-bottom: 16px;
 	}
 	.cover__subtitle {
 		font-size: 14px;
 		line-height: 114%;
+		white-space: pre-line;
 	}
 }

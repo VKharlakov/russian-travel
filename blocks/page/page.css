@@ -4,3 +4,9 @@
 	color: #FFFFFF;
 	padding: 28px 48px 24px;
 }
+
+@media screen and (max-width: 768px) {
+	.page {
+		padding: 16px 16px 24px 16px;
+	}
+}
