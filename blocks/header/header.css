@@ -2,9 +2,6 @@
 	display: flex;
 	justify-content: center;
 	padding-bottom: 56px;
-	
-
-	border: 1px solid green;
 }
 
 .header__container {
@@ -13,8 +10,6 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
-	border: 1px solid green;
 }
 
 .header__logo {
@@ -30,16 +25,16 @@
 	line-height: 117%;
 	text-align: center;
 	gap: 18px;
-
-	border: 1px solid green;
 }
 
 .header__lang-link {
-	text-decoration: none;
+	text-decoration: underline;
+	text-decoration-color: transparent;
 	color: white;
+	transition: .2s;
 }
 
 .header__lang-link:hover {
-	text-decoration-line: underline;;
+	text-decoration-color: white;
 	cursor: pointer;
 }
