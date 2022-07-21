@@ -42,6 +42,12 @@
 
 @media screen and (max-width: 768px) {
 	.footer {
+		padding: 88px 24px 24px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.footer {
 		flex-direction: column;
 	}
 	.footer__links {

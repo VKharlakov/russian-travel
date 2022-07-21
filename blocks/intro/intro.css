@@ -53,9 +53,12 @@
 }
 
 @media screen and (max-width: 768px) {
-	.intro {
-		padding: 64px 0;
+	.intro__section-container {
+		padding: 0 24px 88px;
 	}
+}
+
+@media screen and (max-width: 660px) {
 	.intro__title {
 		font-size: 32px;
 		line-height: 109%;
