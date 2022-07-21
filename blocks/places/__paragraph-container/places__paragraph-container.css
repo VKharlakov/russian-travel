@@ -1,0 +1,15 @@
+.places__paragraph-container{
+
+}
+
+@media screen and (max-width: 760px) {
+    .places__paragraph-container {
+    	order: 4;
+    }
+}
+
+@media screen and (max-width: 425px) {
+	.places__paragraph-container{
+		padding: 0 16px;
+	}
+}

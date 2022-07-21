@@ -4,145 +4,14 @@
 	padding: 0 48px 92px;
 }
 
-.places__container {
-	width: 100%;
-	max-width: 984px;
-}
-
-.places__place {
-	width: 100%;
-	margin-bottom: 80px;
-	display: grid;
-    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
-    grid-auto-flow: column;
-    grid-row-gap: 48px;
-    grid-column-gap: calc(40/984*100%);
-}
-
-.places__place:last-of-type {
-	margin-bottom: 0;
-}
-
-.places__title {
-	margin: 0;
-	font-weight: bold;
-	font-size: 72px;
-	line-height: 106%;
-}
-
-.places__image {
-	width: 100%;
-}
-
-.places__website {
-	align-self: flex-end;
-}
-
-.places__url-heading {
-	margin: 0;
-	margin-bottom: 12px;
-	color: #AAAAAA;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 170%;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-;
-}
-
-.places__link {
-	margin: 0;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 122%;
-	text-decoration: underline;
-	color: white;
-	transition: .2s;
-}
-
-.places__link:hover {
-	opacity: .8;
-	cursor: pointer;
-}
-
-.places__paragraph-container{
-
-}
-
-.places__paragraph {
-	margin: 0;
-	padding-bottom: 26px;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 163%;
-	white-space: pre-line;
-}
-
-.places__paragraph:nth-of-type(even) {
-	padding-bottom: 0;
-}
-
 @media screen and (max-width: 768px) {
 	.places {
 		padding: 0 24px 90px;
 	}
-	.places__title {
-		white-space: pre-line;
-		font-size: 42px;
-		line-height: 110%;
-	}
-	.places__place {
-		margin-bottom: 73px;
-	}
-	.places__url-heading {
-		line-height: 100%;
-	}
-	.places__paragraph {
-		white-space: normal;
-		font-size: 16px;
-		line-height: 163%;
-		padding-bottom: 25px;
-	}
 }
 
-@media screen and (max-width: 760px) {
-	.places__place {
-		max-width: 460px;
-		grid-template-columns: minmax(100%, 460px);
-    	grid-template-rows: repeat(4, minmax(min-content, max-content));
-    }
-    .places__title {
-    	order: 1;
-    	font-size: 32px;
-    	line-height: 109%;
-    }
-    .places__website {
-    	order: 2;
-    }
-    .places__image {
-    	order: 3;
-    }
-    .places__paragraph-container {
-    	order: 4;
-    }
-}
 @media screen and (max-width: 425px) {
 	.places {
 		padding: 0 0px 66px;
-	}
-	.places__place {
-		grid-row-gap: 32px;
-		margin-bottom: 50px;
-	}
-	.places__title {
-		padding: 0 16px;
-		white-space: normal;
-	}
-	.places__paragraph-container{
-		padding: 0 16px;
-	}
-	.places__website {
-		padding: 0 16px;
 	}
 }
