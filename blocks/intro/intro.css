@@ -1,11 +1,16 @@
 .intro {
-	padding: 92px 0;
-	max-width: 984px;
 	width: 100%;
-	margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
-.intro__container {
+.intro__section-container {
+	width: 100%;
+    max-width: 984px;
+    padding: 0 48px 92px;
+}
+
+.intro__text-container {
 	max-width: 690px;
 	width: 100%;
 }

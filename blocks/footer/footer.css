@@ -1,10 +1,14 @@
 .footer {
+	display: flex;
+	justify-content: center;
+	padding: 92px 48px 24px;
+}
+
+.footer__container {
 	width: 100%;
 	max-width: 1184px;
-	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	padding-top: 90px;
 }
 
 .footer__links {

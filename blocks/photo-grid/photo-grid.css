@@ -1,5 +1,8 @@
 .photo-grid {
-	margin: 0 auto;
+	padding: 0 48px 92px;
+}
+
+.photo-grid__container {
     width: 100%;
     max-width: 1184px;
     display: grid;

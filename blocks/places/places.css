@@ -1,7 +1,12 @@
 .places {
+	display: flex;
+	justify-content: center;
+	padding: 0 48px 92px;
+}
+
+.places__container {
+	width: 100%;
 	max-width: 984px;
-	padding: 92px 0;
-	margin: 0 auto;
 }
 
 .places__place {
