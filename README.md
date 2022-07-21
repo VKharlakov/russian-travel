@@ -15,7 +15,7 @@
 
 **Figma**
 
-Дизайн проекта был полностью взят с макета из Figma, все указанные размеры учтены с малейшими погрешностями.[Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+Дизайн проекта был полностью взят с макета из Figma, все указанные размеры учтены с малейшими погрешностями. [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
 **Скриншоты**
 
