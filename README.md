@@ -1,5 +1,3 @@
-![alt text](./images/__logo.svg "Логотип")
-
 # Проект: Путешествие по России
 
 ### Обзор
@@ -19,7 +17,7 @@
 
 *Примечание: все картинки на сайте были оптимизированы с помозью бесплатного сервиса TinyPNG.com*
 
-![alt text](./images/photo-grid/__item-5 "Логотип")
-![alt text](./images/photo-grid/__item-9 "Логотип")
-![alt text](./images/place/__place-img-2 "Логотип")
-![alt text](./images/place/__place-img-5 "Логотип")
+![alt text](./images/photo-grid/__item-5.png "Логотип")
+![alt text](./images/photo-grid/__item-9.png "Логотип")
+![alt text](./images/place/__place-img-2.png "Логотип")
+![alt text](./images/place/__place-img-5.png "Логотип")
