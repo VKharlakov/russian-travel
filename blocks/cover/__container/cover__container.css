@@ -3,3 +3,8 @@
     width: 100%;
     max-width: 1184px;
 }
+
+.cover__container:hover {
+    background-color: rgba(42, 44, 47, .8);
+    cursor: pointer;
+}
