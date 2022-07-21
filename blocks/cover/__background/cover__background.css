@@ -2,3 +2,8 @@
 	width: 100%;
 	z-index: 1;
 }
+
+.cover__background:hover {
+	background-color: rgba(42, 44, 47, .8);
+	cursor: pointer;
+}

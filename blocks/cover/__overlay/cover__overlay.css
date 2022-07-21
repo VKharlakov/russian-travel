@@ -14,8 +14,3 @@
 	text-decoration: none;
 	color: white;
 }
-
-.cover__overlay:hover {
-	background-color: rgba(42, 44, 47, .8);
-	cursor: pointer;
-}
