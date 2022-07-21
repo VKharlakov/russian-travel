@@ -59,3 +59,8 @@
 		line-height: 100%;
 	}
 }
+@media screen and (max-width: 425px) {
+	.footer {
+		padding: 64px 16px 24px;
+	}
+}

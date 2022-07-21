@@ -51,3 +51,17 @@
 		padding-right: 24px;
 	}
 }
+
+@media screen and (max-width: 660px) {
+	.header {
+		padding: 16px 16px 48px;
+	}
+	.header__lang-links {
+		font-size: 18px;
+		line-height: 111%;
+	}
+	.header__logo {
+	max-width: 142px;
+	max-height: 42px;
+}
+}

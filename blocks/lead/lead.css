@@ -66,7 +66,14 @@
 }
 
 @media screen and (max-width: 660px) {
+	.lead {
+		padding: 0 0 64px;
+	}
+	.lead__caption {
+		margin-left: 16px;
+	}
 	.lead__title {
+		margin-bottom: 16px;
 		font-size: 40px;
 		line-height: 110%;
 	}
