@@ -106,7 +106,7 @@
 	}
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 760px) {
 	.places__place {
 		max-width: 460px;
 		grid-template-columns: minmax(100%, 460px);
