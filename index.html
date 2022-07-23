@@ -4,7 +4,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="./pages/index.css">
-		<link rel="stylesheet" href="./blocks/page.css">
 		<title>Путешествия по России</title>
 	</head>
 	<body class="page">
@@ -12,12 +11,13 @@
 			<div class="header__container">
 				<img class="header__logo" src="./images/__logo.svg" alt="Логотип">
 				<div class="header__lang-links">
-					<a class="header__lang-link" href="#">Ru</a>
+					<a class="header__lang-link header__lang-link_active" href="#">Ru</a>
 					<a class="header__lang-link" href="#">En</a>
 				</div>
 			</div>
 		</header>
 		<main class="content">
+			<!-- Если убирать __container у секций, то, при разрешении больше 1280px секция не будет центрироваться. При наличии __container при любом разрешении секция всегда стоит по центру страницы. -->
 			<section class="lead">
 				<div class="lead__container">
 					<h1 class="lead__title">Путешествия 
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="photo-grid">
+			<section class="photo-grid" aria-label="Сетка с фотографиями">
 				<ul class="photo-grid__container">
 					<li class="photo-grid__figure">
 						<img class="photo-grid__item" src="./images/photo-grid/__item-11.png" alt="Фотография природы">
@@ -164,6 +164,7 @@
 					</li>
 				</ul>
 			</section>
+			<!-- Если я поставлю фотографию как фон для __overlay, то при __overlay opacity 30%, как указано в макете, фотография не затемнится, а будет прозрачной. Подскажите, пожалуйста, подробнее как реализовать данный блок и почему нельзя использовать absolute для наложения затемнения на картинку. Спасибо. -->
 			<section class="cover">
 				<div class="cover__container">
 					<img class="cover__background" src="./images/__background.png" alt="Фотография ж/д путей">

@@ -1,11 +1,4 @@
 .header__lang-link {
-	text-decoration: underline;
-	text-decoration-color: transparent;
+	text-decoration: none;
 	color: white;
-	transition: .2s;
-}
-
-.header__lang-link:hover {
-	text-decoration-color: white;
-	cursor: pointer;
 }

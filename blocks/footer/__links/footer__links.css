@@ -8,5 +8,6 @@
 	.footer__links {
 		flex-direction: column;
 		padding-bottom: 48px;
+		gap: 32px;
 	}
 }

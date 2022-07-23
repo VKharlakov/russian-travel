@@ -7,7 +7,7 @@
 	white-space: pre-line;
 }
 
-.places__paragraph:nth-of-type(even) {
+.places__paragraph:last-of-type {
 	padding-bottom: 0;
 }
 
