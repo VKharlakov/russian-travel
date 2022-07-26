@@ -1,5 +1,5 @@
 .cover__overlay {
-	z-index: 3;
+/*	z-index: 3;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -12,10 +12,14 @@
 	background-color: rgba(42, 44, 47, .3);
 	transition: .3s;
 	text-decoration: none;
-	color: white;
+	color: white;*/
+	padding: 0;
+    margin: 0;
+	text-decoration: none;
+    color: white;
 }
 
-.cover__overlay:hover {
+/*.cover__overlay:hover {
     background-color: rgba(42, 44, 47, .8);
     cursor: pointer;
-}
+}*/

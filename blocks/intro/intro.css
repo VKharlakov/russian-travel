@@ -1,5 +1,16 @@
 .intro {
-	width: 100%;
-    display: flex;
-    justify-content: center;
+	padding: 0 48px 92px;
+	max-width: 984px;
+}
+
+@media screen and (max-width: 768px) {
+	.intro {
+		padding: 0 24px 88px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.intro {
+		padding: 0 16px 64px;
+	}
 }

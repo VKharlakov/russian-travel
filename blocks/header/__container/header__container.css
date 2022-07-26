@@ -1,7 +1,0 @@
-.header__container {
-	width: 100%;
-	max-width: 1184px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
