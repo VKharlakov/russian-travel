@@ -3,4 +3,52 @@
     margin: 0;
 	text-decoration: none;
     color: white;
+
+	width: 100%;
+    min-height: 740px;
+    z-index: 1;
+    background-image: url(../../../images/__background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover__overlay:before {
+	z-index: -1;
+    content: '';
+    position: absolute;
+    background: #2A2C2F;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    transition: .3s;
+}
+
+.cover__overlay:hover:before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:  1024px) {
+	.cover__overlay {
+		min-height: 640px;
+	}
+}
+
+@media screen and (max-width:  768px) {
+	.cover__overlay {
+		min-height: 480px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.cover__overlay {
+		min-height: 200px;
+	}
 }
